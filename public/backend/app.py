@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from boggle import Boggle
+from backend.boggle import Boggle
 
 app = Flask(__name__)
 
